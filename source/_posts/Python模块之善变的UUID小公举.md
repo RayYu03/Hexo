@@ -15,6 +15,8 @@ tags: "UUID"
 - `uuid4() 随机生成`
 - `uuid5() 从SHA-1算法生成`
 
+<!-- more -->
+
 `下面是使用示例：`
 ```python
 >>> #导入uuid模块

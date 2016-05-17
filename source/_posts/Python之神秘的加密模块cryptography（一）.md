@@ -14,7 +14,7 @@ tags: "cryptography"
 -	缺少高级（易于使用）的APIs
 -	缺少AES-GCM和HKDF等算法
 -	经不住测试错误百出的APIs
-
+<!-- more -->
 **Fernet（对称加密）**
 -	Fernet保证了使用它进行加密的信息不能随意被操纵或者无秘钥解析。Fernet是一种对称加密的方式，同时也可以通过使用MultiFernet实现秘钥轮换的支持。
 
