@@ -6,8 +6,8 @@
 title: 你今天真好看
 subtitle:
 description: You know nothing.
-author: 嘹亮的小号
-language: zh-Hans
+author: Ray Yu
+language: en
 timezone:
 
 # URL
@@ -70,12 +70,12 @@ avatar: http://ww1.sinaimg.cn/large/647dc635jw1f37ldgc9isj20ia0jn795.jpg
 # duoshuo_shortname:
 duoshuo_shortname: liaoliangdexiaohao
 # duoshuo_share
-duoshuo_share: true
+# duoshuo_share: true
 # duoshuo_hotartical
 duoshuo_hotartical: true
 
 # Swiftype Search Key
-swiftype_key: MLqMBTz4tVnUeR-a8ygY
+#swiftype_key: MLqMBTz4tVnUeR-a8ygY
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,4 +83,13 @@ deploy:
   type: git
   repository: https://github.com/RayYu03/RayYu03.github.io
   branch: master
-  message: 
+  message:
+
+# favicon
+favicon: favicon.ico
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
